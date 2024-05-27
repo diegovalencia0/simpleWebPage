@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color:  #273149;
+    color: whitesmoke;
+    display: flex;
+    flex:auto;
+    align-items: center;
+    padding: 1em 6em;
+}
+
+#header-title{
+    font-size: 25px;
+}
+
+nav{
+    margin-left: auto;
+}
+
+#nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#nav-list{
+    display: flex;
+    list-style: none;
+}
+
+#nav li{
+    margin-right: 2em;
+}
+
+#banner{
+    background-color: #b97d2d;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6em 12em;
+}
+
+#banner-title{
+    font-size: 2em;
+    margin-bottom:1em ;
+}
+
+#banner-text{
+    text-align: justify;
+}
+
+#subscribe{
+    background-color: #273149 ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 2em;
+}
+
+#subscribe-title{
+    font-weight: bold;
+    margin-right: 2em;
+    color: whitesmoke;
+}
+
+#subscribe-input{
+    margin-right:1em ;
+}
+
+#subscribe-button{
+    background-color: #b97d2d;
+    color: whitesmoke;
+    border: none;
+}
+
+#logos{
+    display: flex;
+}
+
+.logo{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    background-color: #273149;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2em;
+}
